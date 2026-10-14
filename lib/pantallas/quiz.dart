@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import '../modelo/misiones.dart';
-import '../services/progress_store.dart';
-import '../theme.dart';
+import '../servicios/tienda_progreso.dart';
+import '../tema.dart';
 
 class QuizScreen extends StatefulWidget {
   final Mission mission;

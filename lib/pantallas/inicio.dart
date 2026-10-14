@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../data/mock_misiones.dart';
-import '../services/progress_store.dart';
+import '../servicios/tienda_progreso.dart';
 import '../widgets/category_chips.dart';
 import '../widgets/mission_card.dart';
 import 'detalles.dart';

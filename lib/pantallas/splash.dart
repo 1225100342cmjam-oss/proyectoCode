@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../servicios/progress_store.dart';
+import '../servicios/tienda_progreso.dart';
 import '../tema.dart';
 import 'inicio.dart';
 

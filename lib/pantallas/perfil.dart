@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import '../data/mock_misiones.dart';
-import '../servicios/progress_store.dart';
+import '../servicios/tienda_progreso.dart';
 import '../tema.dart';
 
 class ProfileScreen extends StatelessWidget {
