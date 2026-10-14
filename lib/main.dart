@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'screens/splash_screen.dart';
+import 'pantallas/splash.dart';
 import 'tema.dart';
 
 void main() => runApp(const CodeQuestApp());
