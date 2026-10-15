@@ -1,4 +1,4 @@
-import 'package:proyectocode/data/mock_misiones.dart';
+import '../lib/data/mock_misiones.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

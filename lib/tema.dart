@@ -22,11 +22,11 @@ ThemeData buildTheme() {
     colorScheme: base,
     scaffoldBackgroundColor: AppColors.paper,
     textTheme: GoogleFonts.spaceGroteskTextTheme().apply(
-      bodyColor: AppColors.ink,
-      displayColor: AppColors.ink,
+      bodyColor: const Color.fromARGB(162, 252, 103, 138),
+      displayColor: const Color.fromARGB(255, 55, 115, 44),
     ),
     appBarTheme: const AppBarTheme(
-      backgroundColor: AppColors.ink,
+      backgroundColor: Color.fromARGB(255, 55, 115, 44),
       foregroundColor: Colors.white,
       elevation: 0,
     ),
@@ -38,8 +38,8 @@ ThemeData buildTheme() {
     ),
     filledButtonTheme: FilledButtonThemeData(
       style: FilledButton.styleFrom(
-        backgroundColor: AppColors.lens,
-        foregroundColor: AppColors.ink,
+        backgroundColor: const Color.fromARGB(162, 252, 103, 138),
+        foregroundColor: const Color.fromARGB(255, 39, 128, 6),
         minimumSize: const Size.fromHeight(52),
         textStyle: const TextStyle(fontWeight: FontWeight.w700, fontSize: 16),
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
